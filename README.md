@@ -9,10 +9,11 @@ Installation
 ===============
 To use the `HAJWelcomeVideo` object. `import HAJWelcomeVideo` to your Swift ViewController.
 
+Create `var welcomeVideoObject = HAJWelcomeVideo()` in your Swift file.
+
 In `viewDidLoad()`:
 ```
-`var welcomeVideoObject = HAJWelcomeVideo()`
-`welcomeVideoObject.welcomeWithVideo("videoNameHere", view: self.view)`
+`self.welcomeVideoObject.welcomeWithVideo("videoNameHere", view: self.view)`
 `self.view.addSubview(self.welcomeVideoObject.movieView)`
 ```
 Then in `viewWillDisappear()`:
