@@ -13,8 +13,9 @@ Create `var welcomeVideoObject = HAJWelcomeVideo()` in your Swift file.
 
 In `viewDidLoad()`:
 ```
-self.welcomeVideoObject.welcomeWithVideo("videoNameHere", view: self.view)
+self.welcomeVideoObject.welcomeWithVideo("videoNameHere", type: "typeHere(mp4)", startTime: CMTimeMake(startTimeInt, 1), endTime: CMTimeMake(endTimeInt, 1), gradientArray: NSArray(objects: UIColor.blackColor().CGColor, UIColor.clearColor().CGColor, etc.. ), view: self.view)
 self.view.addSubview(self.welcomeVideoObject.movieView)
+self.view.addSubview(self.welcomeVideoObject.gradientView)
 ```
 Then in `viewWillDisappear()`:
 ```
