@@ -25,3 +25,6 @@ And in `viewDidAppear()`
 ```
 self.welcomeVideoObject.avPLayer.play()
 ```
+Version 1.1
+===============
+Added videoType, StartTime, EndTime, and gradients.
