@@ -13,14 +13,14 @@ Create `var welcomeVideoObject = HAJWelcomeVideo()` in your Swift file.
 
 In `viewDidLoad()`:
 ```
-`self.welcomeVideoObject.welcomeWithVideo("videoNameHere", view: self.view)`
-`self.view.addSubview(self.welcomeVideoObject.movieView)`
+self.welcomeVideoObject.welcomeWithVideo("videoNameHere", view: self.view)
+self.view.addSubview(self.welcomeVideoObject.movieView)
 ```
 Then in `viewWillDisappear()`:
 ```
-`self.welcomeVideoObject.avPLayer.pause()`
+self.welcomeVideoObject.avPLayer.pause()
 ```
 And in `viewDidAppear()`
 ```
-`self.welcomeVideoObject.avPLayer.play()`
+self.welcomeVideoObject.avPLayer.play()
 ```
