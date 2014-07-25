@@ -22,7 +22,7 @@ class HAJWelcomeVideo: NSObject {
         self.movieView.frame = self.view.frame
         
         var bundle = NSBundle.mainBundle()
-        var moviePath = bundle.pathForResource("xx", ofType: "mp4")
+        var moviePath = bundle.pathForResource(videoName, ofType: "mp4")
         var movieURL = NSURL.fileURLWithPath(moviePath)
         
         var avAsset: AVAsset = AVAsset.assetWithURL(movieURL) as AVAsset
