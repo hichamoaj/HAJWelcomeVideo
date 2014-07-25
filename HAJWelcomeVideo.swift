@@ -1,10 +1,5 @@
-//
-//  HAJWelcomeVideo.swift
-//  Skriv3
-//
 //  Created by Hicham Abou Jaoude on 2014-07-24.
 //  Copyright (c) 2014 Hicham Abou Jaoude. All rights reserved.
-//
 
 import AVFoundation
 import QuartzCore
